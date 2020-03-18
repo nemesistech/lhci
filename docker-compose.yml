@@ -1,0 +1,10 @@
+version: '3'
+services:
+  lhserver:
+    image: patrickhulce/lhci-server
+    ports:
+      - '9001:9001'
+    volumes:
+      - lhci-data:/data
+volumes:
+  lhci-data:

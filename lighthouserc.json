@@ -1,0 +1,35 @@
+{
+  "ci": {
+    "assert": {
+	  "preset": "lighthouse:no-pwa",
+	  "assertions": {      
+			  "categories:performance": ["warn", {"aggregationMethod": "optimistic", "minScore": 0.80}],
+			  "categories:accessibility": ["warn", {"aggregationMethod": "optimistic", "minScore": 0.90}]
+    }
+    },
+    "collect": {
+      "method": "node",
+      "additive": false,
+      "headful": false,
+      "numberOfRuns": 1,
+      "url": [
+        "http://particuliers.societegenerale.fr/",
+        "http://particuliers.societegenerale.fr/emprunter"
+      ]	  
+    },
+    "upload": {
+      "target": "lhci",
+      "token": "0ff5c38e-e09c-4874-a774-b76c7d55f73a",
+      "serverBaseUrl": "http://192.168.19.128:9001"
+    },
+    "server": {
+      "port": 9001,
+      "storage": {
+        "storageMethod": "sql",
+        "sqlConnectionUrl": "mysql://root@localhost/lighthouse_ci_db",
+        "sqlDialect": "postgres",
+        "sqlDatabasePath": "lhci.db"
+      }
+    }
+  }
+}
