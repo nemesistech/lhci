@@ -1,0 +1,2930 @@
+[
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.36,
+    "values": [
+      0.36
+    ],
+    "operator": ">=",
+    "auditId": "bootup-time",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Reduce JavaScript execution time",
+    "auditDocumentationLink": "https://web.dev/bootup-time"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.04,
+    "values": [
+      0.04
+    ],
+    "operator": ">=",
+    "auditId": "mainthread-work-breakdown",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Minimize main-thread work",
+    "auditDocumentationLink": "https://web.dev/mainthread-work-breakdown"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.77,
+    "values": [
+      0.77
+    ],
+    "operator": ">=",
+    "auditId": "first-contentful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "First Contentful Paint",
+    "auditDocumentationLink": "https://web.dev/first-contentful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.02,
+    "values": [
+      0.02
+    ],
+    "operator": ">=",
+    "auditId": "first-cpu-idle",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "First CPU Idle",
+    "auditDocumentationLink": "https://web.dev/first-cpu-idle"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.12,
+    "values": [
+      0.12
+    ],
+    "operator": ">=",
+    "auditId": "first-meaningful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "First Meaningful Paint",
+    "auditDocumentationLink": "https://web.dev/first-meaningful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.01,
+    "values": [
+      0.01
+    ],
+    "operator": ">=",
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.16,
+    "values": [
+      0.16
+    ],
+    "operator": ">=",
+    "auditId": "speed-index",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Speed Index",
+    "auditDocumentationLink": "https://web.dev/speed-index"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.02,
+    "values": [
+      0.02
+    ],
+    "operator": ">=",
+    "auditId": "max-potential-fid",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Max Potential First Input Delay",
+    "auditDocumentationLink": "https://developers.google.com/web/updates/2018/05/first-input-delay"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 8,
+    "values": [
+      8
+    ],
+    "operator": "<=",
+    "auditId": "offscreen-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Defer offscreen images",
+    "auditDocumentationLink": "https://web.dev/offscreen-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-css",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Minify CSS",
+    "auditDocumentationLink": "https://web.dev/unminified-css"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-javascript",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Minify JavaScript",
+    "auditDocumentationLink": "https://web.dev/unminified-javascript"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "unused-css-rules",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Remove unused CSS",
+    "auditDocumentationLink": "https://web.dev/unused-css-rules"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 3,
+    "values": [
+      3
+    ],
+    "operator": "<=",
+    "auditId": "uses-optimized-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Efficiently encode images",
+    "auditDocumentationLink": "https://web.dev/uses-optimized-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 32,
+    "values": [
+      32
+    ],
+    "operator": "<=",
+    "auditId": "uses-rel-preconnect",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Preconnect to required origins",
+    "auditDocumentationLink": "https://web.dev/uses-rel-preconnect"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "uses-text-compression",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Enable text compression",
+    "auditDocumentationLink": "https://web.dev/uses-text-compression"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 7,
+    "values": [
+      7
+    ],
+    "operator": "<=",
+    "auditId": "render-blocking-resources",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Eliminate render-blocking resources",
+    "auditDocumentationLink": "https://web.dev/render-blocking-resources"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 8,
+    "values": [
+      8
+    ],
+    "operator": "<=",
+    "auditId": "uses-webp-images",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Serve images in next-gen formats",
+    "auditDocumentationLink": "https://web.dev/uses-webp-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 40,
+    "values": [
+      40
+    ],
+    "operator": "<=",
+    "auditId": "uses-long-cache-ttl",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Serve static assets with an efficient cache policy",
+    "auditDocumentationLink": "https://web.dev/uses-long-cache-ttl"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "uses-http2",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Does not use HTTP/2 for all of its resources",
+    "auditDocumentationLink": "https://web.dev/uses-http2"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "button-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Buttons do not have an accessible name",
+    "auditDocumentationLink": "https://web.dev/button-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "color-contrast",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "auditDocumentationLink": "https://web.dev/color-contrast/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.98,
+    "values": [
+      0.98
+    ],
+    "operator": ">=",
+    "auditId": "dom-size",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Avoids an excessive DOM size",
+    "auditDocumentationLink": "https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "duplicate-id",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "`[id]` attributes on the page are not unique",
+    "auditDocumentationLink": "https://web.dev/duplicate-id/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "errors-in-console",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Browser errors were logged to the console",
+    "auditDocumentationLink": "https://web.dev/errors-in-console"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "font-display",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Ensure text remains visible during webfont load",
+    "auditDocumentationLink": "https://web.dev/font-display"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "frame-title",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "`<frame>` or `<iframe>` elements do not have a title",
+    "auditDocumentationLink": "https://web.dev/frame-title/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "image-alt",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Image elements do not have `[alt]` attributes",
+    "auditDocumentationLink": "https://web.dev/image-alt/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "link-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Links do not have a discernible name",
+    "auditDocumentationLink": "https://web.dev/link-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "meta-viewport",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+    "auditDocumentationLink": "https://web.dev/meta-viewport/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "no-vulnerable-libraries",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Includes front-end JavaScript libraries with known security vulnerabilities",
+    "auditDocumentationLink": "https://web.dev/no-vulnerable-libraries"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.63,
+    "values": [
+      0.63
+    ],
+    "operator": ">=",
+    "auditId": "total-byte-weight",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Avoid enormous network payloads",
+    "auditDocumentationLink": "https://web.dev/total-byte-weight"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "deprecations",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/",
+    "auditTitle": "Uses deprecated APIs",
+    "auditDocumentationLink": "https://web.dev/deprecations"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.21,
+    "values": [
+      0.21
+    ],
+    "operator": ">=",
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.69,
+    "values": [
+      0.69
+    ],
+    "operator": ">=",
+    "auditProperty": "accessibility",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.44,
+    "values": [
+      0.44
+    ],
+    "operator": ">=",
+    "auditId": "bootup-time",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Reduce JavaScript execution time",
+    "auditDocumentationLink": "https://web.dev/bootup-time"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.07,
+    "values": [
+      0.07
+    ],
+    "operator": ">=",
+    "auditId": "mainthread-work-breakdown",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Minimize main-thread work",
+    "auditDocumentationLink": "https://web.dev/mainthread-work-breakdown"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.86,
+    "values": [
+      0.86
+    ],
+    "operator": ">=",
+    "auditId": "first-contentful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "First Contentful Paint",
+    "auditDocumentationLink": "https://web.dev/first-contentful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.03,
+    "values": [
+      0.03
+    ],
+    "operator": ">=",
+    "auditId": "first-cpu-idle",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "First CPU Idle",
+    "auditDocumentationLink": "https://web.dev/first-cpu-idle"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.22,
+    "values": [
+      0.22
+    ],
+    "operator": ">=",
+    "auditId": "first-meaningful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "First Meaningful Paint",
+    "auditDocumentationLink": "https://web.dev/first-meaningful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.02,
+    "values": [
+      0.02
+    ],
+    "operator": ">=",
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.39,
+    "values": [
+      0.39
+    ],
+    "operator": ">=",
+    "auditId": "speed-index",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Speed Index",
+    "auditDocumentationLink": "https://web.dev/speed-index"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.03,
+    "values": [
+      0.03
+    ],
+    "operator": ">=",
+    "auditId": "max-potential-fid",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Max Potential First Input Delay",
+    "auditDocumentationLink": "https://developers.google.com/web/updates/2018/05/first-input-delay"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 10,
+    "values": [
+      10
+    ],
+    "operator": "<=",
+    "auditId": "offscreen-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Defer offscreen images",
+    "auditDocumentationLink": "https://web.dev/offscreen-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-css",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Minify CSS",
+    "auditDocumentationLink": "https://web.dev/unminified-css"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-javascript",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Minify JavaScript",
+    "auditDocumentationLink": "https://web.dev/unminified-javascript"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "unused-css-rules",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Remove unused CSS",
+    "auditDocumentationLink": "https://web.dev/unused-css-rules"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 6,
+    "values": [
+      6
+    ],
+    "operator": "<=",
+    "auditId": "uses-optimized-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Efficiently encode images",
+    "auditDocumentationLink": "https://web.dev/uses-optimized-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 31,
+    "values": [
+      31
+    ],
+    "operator": "<=",
+    "auditId": "uses-rel-preconnect",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Preconnect to required origins",
+    "auditDocumentationLink": "https://web.dev/uses-rel-preconnect"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "uses-responsive-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Properly size images",
+    "auditDocumentationLink": "https://web.dev/uses-responsive-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 6,
+    "values": [
+      6
+    ],
+    "operator": "<=",
+    "auditId": "uses-text-compression",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Enable text compression",
+    "auditDocumentationLink": "https://web.dev/uses-text-compression"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 6,
+    "values": [
+      6
+    ],
+    "operator": "<=",
+    "auditId": "render-blocking-resources",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Eliminate render-blocking resources",
+    "auditDocumentationLink": "https://web.dev/render-blocking-resources"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 6,
+    "values": [
+      6
+    ],
+    "operator": "<=",
+    "auditId": "uses-webp-images",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Serve images in next-gen formats",
+    "auditDocumentationLink": "https://web.dev/uses-webp-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 43,
+    "values": [
+      43
+    ],
+    "operator": "<=",
+    "auditId": "uses-long-cache-ttl",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Serve static assets with an efficient cache policy",
+    "auditDocumentationLink": "https://web.dev/uses-long-cache-ttl"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "uses-http2",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Does not use HTTP/2 for all of its resources",
+    "auditDocumentationLink": "https://web.dev/uses-http2"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "button-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Buttons do not have an accessible name",
+    "auditDocumentationLink": "https://web.dev/button-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.94,
+    "values": [
+      0.94
+    ],
+    "operator": ">=",
+    "auditId": "dom-size",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Avoids an excessive DOM size",
+    "auditDocumentationLink": "https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "duplicate-id",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "`[id]` attributes on the page are not unique",
+    "auditDocumentationLink": "https://web.dev/duplicate-id/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "errors-in-console",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Browser errors were logged to the console",
+    "auditDocumentationLink": "https://web.dev/errors-in-console"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "font-display",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Ensure text remains visible during webfont load",
+    "auditDocumentationLink": "https://web.dev/font-display"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "frame-title",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "`<frame>` or `<iframe>` elements do not have a title",
+    "auditDocumentationLink": "https://web.dev/frame-title/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "image-alt",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Image elements do not have `[alt]` attributes",
+    "auditDocumentationLink": "https://web.dev/image-alt/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "link-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Links do not have a discernible name",
+    "auditDocumentationLink": "https://web.dev/link-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "meta-description",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Document does not have a meta description",
+    "auditDocumentationLink": "https://web.dev/meta-description"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "meta-viewport",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+    "auditDocumentationLink": "https://web.dev/meta-viewport/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "no-vulnerable-libraries",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Includes front-end JavaScript libraries with known security vulnerabilities",
+    "auditDocumentationLink": "https://web.dev/no-vulnerable-libraries"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.18,
+    "values": [
+      0.18
+    ],
+    "operator": ">=",
+    "auditId": "total-byte-weight",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Avoid enormous network payloads",
+    "auditDocumentationLink": "https://web.dev/total-byte-weight"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "deprecations",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+    "auditTitle": "Uses deprecated APIs",
+    "auditDocumentationLink": "https://web.dev/deprecations"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.3,
+    "values": [
+      0.3
+    ],
+    "operator": ">=",
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.75,
+    "values": [
+      0.75
+    ],
+    "operator": ">=",
+    "auditProperty": "accessibility",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.38,
+    "values": [
+      0.38
+    ],
+    "operator": ">=",
+    "auditId": "bootup-time",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Reduce JavaScript execution time",
+    "auditDocumentationLink": "https://web.dev/bootup-time"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.06,
+    "values": [
+      0.06
+    ],
+    "operator": ">=",
+    "auditId": "mainthread-work-breakdown",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Minimize main-thread work",
+    "auditDocumentationLink": "https://web.dev/mainthread-work-breakdown"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.87,
+    "values": [
+      0.87
+    ],
+    "operator": ">=",
+    "auditId": "first-contentful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "First Contentful Paint",
+    "auditDocumentationLink": "https://web.dev/first-contentful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.26,
+    "values": [
+      0.26
+    ],
+    "operator": ">=",
+    "auditId": "first-cpu-idle",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "First CPU Idle",
+    "auditDocumentationLink": "https://web.dev/first-cpu-idle"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.05,
+    "values": [
+      0.05
+    ],
+    "operator": ">=",
+    "auditId": "first-meaningful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "First Meaningful Paint",
+    "auditDocumentationLink": "https://web.dev/first-meaningful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.06,
+    "values": [
+      0.06
+    ],
+    "operator": ">=",
+    "auditId": "speed-index",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Speed Index",
+    "auditDocumentationLink": "https://web.dev/speed-index"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.01,
+    "values": [
+      0.01
+    ],
+    "operator": ">=",
+    "auditId": "max-potential-fid",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Max Potential First Input Delay",
+    "auditDocumentationLink": "https://developers.google.com/web/updates/2018/05/first-input-delay"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 9,
+    "values": [
+      9
+    ],
+    "operator": "<=",
+    "auditId": "offscreen-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Defer offscreen images",
+    "auditDocumentationLink": "https://web.dev/offscreen-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-css",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Minify CSS",
+    "auditDocumentationLink": "https://web.dev/unminified-css"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 2,
+    "values": [
+      2
+    ],
+    "operator": "<=",
+    "auditId": "unminified-javascript",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Minify JavaScript",
+    "auditDocumentationLink": "https://web.dev/unminified-javascript"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "unused-css-rules",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Remove unused CSS",
+    "auditDocumentationLink": "https://web.dev/unused-css-rules"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "uses-optimized-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Efficiently encode images",
+    "auditDocumentationLink": "https://web.dev/uses-optimized-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 32,
+    "values": [
+      32
+    ],
+    "operator": "<=",
+    "auditId": "uses-rel-preconnect",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Preconnect to required origins",
+    "auditDocumentationLink": "https://web.dev/uses-rel-preconnect"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "uses-responsive-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Properly size images",
+    "auditDocumentationLink": "https://web.dev/uses-responsive-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 5,
+    "values": [
+      5
+    ],
+    "operator": "<=",
+    "auditId": "uses-text-compression",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Enable text compression",
+    "auditDocumentationLink": "https://web.dev/uses-text-compression"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 6,
+    "values": [
+      6
+    ],
+    "operator": "<=",
+    "auditId": "render-blocking-resources",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Eliminate render-blocking resources",
+    "auditDocumentationLink": "https://web.dev/render-blocking-resources"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 7,
+    "values": [
+      7
+    ],
+    "operator": "<=",
+    "auditId": "uses-webp-images",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Serve images in next-gen formats",
+    "auditDocumentationLink": "https://web.dev/uses-webp-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 40,
+    "values": [
+      40
+    ],
+    "operator": "<=",
+    "auditId": "uses-long-cache-ttl",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Serve static assets with an efficient cache policy",
+    "auditDocumentationLink": "https://web.dev/uses-long-cache-ttl"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "uses-http2",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Does not use HTTP/2 for all of its resources",
+    "auditDocumentationLink": "https://web.dev/uses-http2"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "button-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Buttons do not have an accessible name",
+    "auditDocumentationLink": "https://web.dev/button-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "color-contrast",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "auditDocumentationLink": "https://web.dev/color-contrast/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.97,
+    "values": [
+      0.97
+    ],
+    "operator": ">=",
+    "auditId": "dom-size",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Avoids an excessive DOM size",
+    "auditDocumentationLink": "https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "duplicate-id",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "`[id]` attributes on the page are not unique",
+    "auditDocumentationLink": "https://web.dev/duplicate-id/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "errors-in-console",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Browser errors were logged to the console",
+    "auditDocumentationLink": "https://web.dev/errors-in-console"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "font-display",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Ensure text remains visible during webfont load",
+    "auditDocumentationLink": "https://web.dev/font-display"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "frame-title",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "`<frame>` or `<iframe>` elements do not have a title",
+    "auditDocumentationLink": "https://web.dev/frame-title/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "image-alt",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Image elements do not have `[alt]` attributes",
+    "auditDocumentationLink": "https://web.dev/image-alt/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "link-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Links do not have a discernible name",
+    "auditDocumentationLink": "https://web.dev/link-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "meta-description",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Document does not have a meta description",
+    "auditDocumentationLink": "https://web.dev/meta-description"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "meta-viewport",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+    "auditDocumentationLink": "https://web.dev/meta-viewport/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "no-vulnerable-libraries",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Includes front-end JavaScript libraries with known security vulnerabilities",
+    "auditDocumentationLink": "https://web.dev/no-vulnerable-libraries"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.45,
+    "values": [
+      0.45
+    ],
+    "operator": ">=",
+    "auditId": "total-byte-weight",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Avoid enormous network payloads",
+    "auditDocumentationLink": "https://web.dev/total-byte-weight"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "deprecations",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/emprunter",
+    "auditTitle": "Uses deprecated APIs",
+    "auditDocumentationLink": "https://web.dev/deprecations"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.23,
+    "values": [
+      0.23
+    ],
+    "operator": ">=",
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.71,
+    "values": [
+      0.71
+    ],
+    "operator": ">=",
+    "auditProperty": "accessibility",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/emprunter"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.25,
+    "values": [
+      0.25
+    ],
+    "operator": ">=",
+    "auditId": "bootup-time",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Reduce JavaScript execution time",
+    "auditDocumentationLink": "https://web.dev/bootup-time"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.03,
+    "values": [
+      0.03
+    ],
+    "operator": ">=",
+    "auditId": "mainthread-work-breakdown",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Minimize main-thread work",
+    "auditDocumentationLink": "https://web.dev/mainthread-work-breakdown"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.88,
+    "values": [
+      0.88
+    ],
+    "operator": ">=",
+    "auditId": "first-contentful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "First Contentful Paint",
+    "auditDocumentationLink": "https://web.dev/first-contentful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.03,
+    "values": [
+      0.03
+    ],
+    "operator": ">=",
+    "auditId": "first-cpu-idle",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "First CPU Idle",
+    "auditDocumentationLink": "https://web.dev/first-cpu-idle"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.22,
+    "values": [
+      0.22
+    ],
+    "operator": ">=",
+    "auditId": "first-meaningful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "First Meaningful Paint",
+    "auditDocumentationLink": "https://web.dev/first-meaningful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.02,
+    "values": [
+      0.02
+    ],
+    "operator": ">=",
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.19,
+    "values": [
+      0.19
+    ],
+    "operator": ">=",
+    "auditId": "speed-index",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Speed Index",
+    "auditDocumentationLink": "https://web.dev/speed-index"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "max-potential-fid",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Max Potential First Input Delay",
+    "auditDocumentationLink": "https://developers.google.com/web/updates/2018/05/first-input-delay"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 5,
+    "values": [
+      5
+    ],
+    "operator": "<=",
+    "auditId": "offscreen-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Defer offscreen images",
+    "auditDocumentationLink": "https://web.dev/offscreen-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-css",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Minify CSS",
+    "auditDocumentationLink": "https://web.dev/unminified-css"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 2,
+    "values": [
+      2
+    ],
+    "operator": "<=",
+    "auditId": "unminified-javascript",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Minify JavaScript",
+    "auditDocumentationLink": "https://web.dev/unminified-javascript"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "unused-css-rules",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Remove unused CSS",
+    "auditDocumentationLink": "https://web.dev/unused-css-rules"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "uses-optimized-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Efficiently encode images",
+    "auditDocumentationLink": "https://web.dev/uses-optimized-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 32,
+    "values": [
+      32
+    ],
+    "operator": "<=",
+    "auditId": "uses-rel-preconnect",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Preconnect to required origins",
+    "auditDocumentationLink": "https://web.dev/uses-rel-preconnect"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "uses-responsive-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Properly size images",
+    "auditDocumentationLink": "https://web.dev/uses-responsive-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "uses-text-compression",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Enable text compression",
+    "auditDocumentationLink": "https://web.dev/uses-text-compression"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 6,
+    "values": [
+      6
+    ],
+    "operator": "<=",
+    "auditId": "render-blocking-resources",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Eliminate render-blocking resources",
+    "auditDocumentationLink": "https://web.dev/render-blocking-resources"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 5,
+    "values": [
+      5
+    ],
+    "operator": "<=",
+    "auditId": "uses-webp-images",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Serve images in next-gen formats",
+    "auditDocumentationLink": "https://web.dev/uses-webp-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 37,
+    "values": [
+      37
+    ],
+    "operator": "<=",
+    "auditId": "uses-long-cache-ttl",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Serve static assets with an efficient cache policy",
+    "auditDocumentationLink": "https://web.dev/uses-long-cache-ttl"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "uses-http2",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Does not use HTTP/2 for all of its resources",
+    "auditDocumentationLink": "https://web.dev/uses-http2"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "button-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Buttons do not have an accessible name",
+    "auditDocumentationLink": "https://web.dev/button-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "color-contrast",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "auditDocumentationLink": "https://web.dev/color-contrast/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "duplicate-id",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "`[id]` attributes on the page are not unique",
+    "auditDocumentationLink": "https://web.dev/duplicate-id/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "errors-in-console",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Browser errors were logged to the console",
+    "auditDocumentationLink": "https://web.dev/errors-in-console"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "font-display",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Ensure text remains visible during webfont load",
+    "auditDocumentationLink": "https://web.dev/font-display"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "frame-title",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "`<frame>` or `<iframe>` elements do not have a title",
+    "auditDocumentationLink": "https://web.dev/frame-title/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "image-alt",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Image elements do not have `[alt]` attributes",
+    "auditDocumentationLink": "https://web.dev/image-alt/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "link-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Links do not have a discernible name",
+    "auditDocumentationLink": "https://web.dev/link-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "meta-description",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Document does not have a meta description",
+    "auditDocumentationLink": "https://web.dev/meta-description"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "meta-viewport",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+    "auditDocumentationLink": "https://web.dev/meta-viewport/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "no-vulnerable-libraries",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Includes front-end JavaScript libraries with known security vulnerabilities",
+    "auditDocumentationLink": "https://web.dev/no-vulnerable-libraries"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.71,
+    "values": [
+      0.71
+    ],
+    "operator": ">=",
+    "auditId": "total-byte-weight",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Avoid enormous network payloads",
+    "auditDocumentationLink": "https://web.dev/total-byte-weight"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "deprecations",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+    "auditTitle": "Uses deprecated APIs",
+    "auditDocumentationLink": "https://web.dev/deprecations"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.25,
+    "values": [
+      0.25
+    ],
+    "operator": ">=",
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.69,
+    "values": [
+      0.69
+    ],
+    "operator": ">=",
+    "auditProperty": "accessibility",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/epargner-placer-son-argent"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.36,
+    "values": [
+      0.36
+    ],
+    "operator": ">=",
+    "auditId": "bootup-time",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Reduce JavaScript execution time",
+    "auditDocumentationLink": "https://web.dev/bootup-time"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.06,
+    "values": [
+      0.06
+    ],
+    "operator": ">=",
+    "auditId": "mainthread-work-breakdown",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Minimize main-thread work",
+    "auditDocumentationLink": "https://web.dev/mainthread-work-breakdown"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.88,
+    "values": [
+      0.88
+    ],
+    "operator": ">=",
+    "auditId": "first-contentful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "First Contentful Paint",
+    "auditDocumentationLink": "https://web.dev/first-contentful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.02,
+    "values": [
+      0.02
+    ],
+    "operator": ">=",
+    "auditId": "first-cpu-idle",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "First CPU Idle",
+    "auditDocumentationLink": "https://web.dev/first-cpu-idle"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.15,
+    "values": [
+      0.15
+    ],
+    "operator": ">=",
+    "auditId": "first-meaningful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "First Meaningful Paint",
+    "auditDocumentationLink": "https://web.dev/first-meaningful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.01,
+    "values": [
+      0.01
+    ],
+    "operator": ">=",
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.23,
+    "values": [
+      0.23
+    ],
+    "operator": ">=",
+    "auditId": "speed-index",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Speed Index",
+    "auditDocumentationLink": "https://web.dev/speed-index"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.01,
+    "values": [
+      0.01
+    ],
+    "operator": ">=",
+    "auditId": "max-potential-fid",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Max Potential First Input Delay",
+    "auditDocumentationLink": "https://developers.google.com/web/updates/2018/05/first-input-delay"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 3,
+    "values": [
+      3
+    ],
+    "operator": "<=",
+    "auditId": "offscreen-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Defer offscreen images",
+    "auditDocumentationLink": "https://web.dev/offscreen-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-css",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Minify CSS",
+    "auditDocumentationLink": "https://web.dev/unminified-css"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-javascript",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Minify JavaScript",
+    "auditDocumentationLink": "https://web.dev/unminified-javascript"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "unused-css-rules",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Remove unused CSS",
+    "auditDocumentationLink": "https://web.dev/unused-css-rules"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 3,
+    "values": [
+      3
+    ],
+    "operator": "<=",
+    "auditId": "uses-optimized-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Efficiently encode images",
+    "auditDocumentationLink": "https://web.dev/uses-optimized-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 31,
+    "values": [
+      31
+    ],
+    "operator": "<=",
+    "auditId": "uses-rel-preconnect",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Preconnect to required origins",
+    "auditDocumentationLink": "https://web.dev/uses-rel-preconnect"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 2,
+    "values": [
+      2
+    ],
+    "operator": "<=",
+    "auditId": "uses-responsive-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Properly size images",
+    "auditDocumentationLink": "https://web.dev/uses-responsive-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "uses-text-compression",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Enable text compression",
+    "auditDocumentationLink": "https://web.dev/uses-text-compression"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 6,
+    "values": [
+      6
+    ],
+    "operator": "<=",
+    "auditId": "render-blocking-resources",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Eliminate render-blocking resources",
+    "auditDocumentationLink": "https://web.dev/render-blocking-resources"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 3,
+    "values": [
+      3
+    ],
+    "operator": "<=",
+    "auditId": "uses-webp-images",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Serve images in next-gen formats",
+    "auditDocumentationLink": "https://web.dev/uses-webp-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 37,
+    "values": [
+      37
+    ],
+    "operator": "<=",
+    "auditId": "uses-long-cache-ttl",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Serve static assets with an efficient cache policy",
+    "auditDocumentationLink": "https://web.dev/uses-long-cache-ttl"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "uses-http2",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Does not use HTTP/2 for all of its resources",
+    "auditDocumentationLink": "https://web.dev/uses-http2"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "button-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Buttons do not have an accessible name",
+    "auditDocumentationLink": "https://web.dev/button-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "color-contrast",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "auditDocumentationLink": "https://web.dev/color-contrast/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.99,
+    "values": [
+      0.99
+    ],
+    "operator": ">=",
+    "auditId": "dom-size",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Avoids an excessive DOM size",
+    "auditDocumentationLink": "https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "duplicate-id",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "`[id]` attributes on the page are not unique",
+    "auditDocumentationLink": "https://web.dev/duplicate-id/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "errors-in-console",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Browser errors were logged to the console",
+    "auditDocumentationLink": "https://web.dev/errors-in-console"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "font-display",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Ensure text remains visible during webfont load",
+    "auditDocumentationLink": "https://web.dev/font-display"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "frame-title",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "`<frame>` or `<iframe>` elements do not have a title",
+    "auditDocumentationLink": "https://web.dev/frame-title/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "image-alt",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Image elements do not have `[alt]` attributes",
+    "auditDocumentationLink": "https://web.dev/image-alt/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "link-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Links do not have a discernible name",
+    "auditDocumentationLink": "https://web.dev/link-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "meta-description",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Document does not have a meta description",
+    "auditDocumentationLink": "https://web.dev/meta-description"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "meta-viewport",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+    "auditDocumentationLink": "https://web.dev/meta-viewport/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "no-vulnerable-libraries",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Includes front-end JavaScript libraries with known security vulnerabilities",
+    "auditDocumentationLink": "https://web.dev/no-vulnerable-libraries"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.63,
+    "values": [
+      0.63
+    ],
+    "operator": ">=",
+    "auditId": "total-byte-weight",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Avoid enormous network payloads",
+    "auditDocumentationLink": "https://web.dev/total-byte-weight"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "deprecations",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/assurances",
+    "auditTitle": "Uses deprecated APIs",
+    "auditDocumentationLink": "https://web.dev/deprecations"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.25,
+    "values": [
+      0.25
+    ],
+    "operator": ">=",
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.69,
+    "values": [
+      0.69
+    ],
+    "operator": ">=",
+    "auditProperty": "accessibility",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/assurances"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.31,
+    "values": [
+      0.31
+    ],
+    "operator": ">=",
+    "auditId": "bootup-time",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Reduce JavaScript execution time",
+    "auditDocumentationLink": "https://web.dev/bootup-time"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.03,
+    "values": [
+      0.03
+    ],
+    "operator": ">=",
+    "auditId": "mainthread-work-breakdown",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Minimize main-thread work",
+    "auditDocumentationLink": "https://web.dev/mainthread-work-breakdown"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.85,
+    "values": [
+      0.85
+    ],
+    "operator": ">=",
+    "auditId": "first-contentful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "First Contentful Paint",
+    "auditDocumentationLink": "https://web.dev/first-contentful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.02,
+    "values": [
+      0.02
+    ],
+    "operator": ">=",
+    "auditId": "first-cpu-idle",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "First CPU Idle",
+    "auditDocumentationLink": "https://web.dev/first-cpu-idle"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.16,
+    "values": [
+      0.16
+    ],
+    "operator": ">=",
+    "auditId": "first-meaningful-paint",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "First Meaningful Paint",
+    "auditDocumentationLink": "https://web.dev/first-meaningful-paint"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.01,
+    "values": [
+      0.01
+    ],
+    "operator": ">=",
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.05,
+    "values": [
+      0.05
+    ],
+    "operator": ">=",
+    "auditId": "speed-index",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Speed Index",
+    "auditDocumentationLink": "https://web.dev/speed-index"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.02,
+    "values": [
+      0.02
+    ],
+    "operator": ">=",
+    "auditId": "max-potential-fid",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Max Potential First Input Delay",
+    "auditDocumentationLink": "https://developers.google.com/web/updates/2018/05/first-input-delay"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 19,
+    "values": [
+      19
+    ],
+    "operator": "<=",
+    "auditId": "offscreen-images",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Defer offscreen images",
+    "auditDocumentationLink": "https://web.dev/offscreen-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "unminified-css",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Minify CSS",
+    "auditDocumentationLink": "https://web.dev/unminified-css"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 2,
+    "values": [
+      2
+    ],
+    "operator": "<=",
+    "auditId": "unminified-javascript",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Minify JavaScript",
+    "auditDocumentationLink": "https://web.dev/unminified-javascript"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "unused-css-rules",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Remove unused CSS",
+    "auditDocumentationLink": "https://web.dev/unused-css-rules"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 32,
+    "values": [
+      32
+    ],
+    "operator": "<=",
+    "auditId": "uses-rel-preconnect",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Preconnect to required origins",
+    "auditDocumentationLink": "https://web.dev/uses-rel-preconnect"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 4,
+    "values": [
+      4
+    ],
+    "operator": "<=",
+    "auditId": "uses-text-compression",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Enable text compression",
+    "auditDocumentationLink": "https://web.dev/uses-text-compression"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 6,
+    "values": [
+      6
+    ],
+    "operator": "<=",
+    "auditId": "render-blocking-resources",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Eliminate render-blocking resources",
+    "auditDocumentationLink": "https://web.dev/render-blocking-resources"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 1,
+    "values": [
+      1
+    ],
+    "operator": "<=",
+    "auditId": "uses-webp-images",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Serve images in next-gen formats",
+    "auditDocumentationLink": "https://web.dev/uses-webp-images"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 52,
+    "values": [
+      52
+    ],
+    "operator": "<=",
+    "auditId": "uses-long-cache-ttl",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Serve static assets with an efficient cache policy",
+    "auditDocumentationLink": "https://web.dev/uses-long-cache-ttl"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "uses-http2",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Does not use HTTP/2 for all of its resources",
+    "auditDocumentationLink": "https://web.dev/uses-http2"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "button-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Buttons do not have an accessible name",
+    "auditDocumentationLink": "https://web.dev/button-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "color-contrast",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "auditDocumentationLink": "https://web.dev/color-contrast/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.99,
+    "values": [
+      0.99
+    ],
+    "operator": ">=",
+    "auditId": "dom-size",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Avoids an excessive DOM size",
+    "auditDocumentationLink": "https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "duplicate-id",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "`[id]` attributes on the page are not unique",
+    "auditDocumentationLink": "https://web.dev/duplicate-id/"
+  },
+  {
+    "name": "maxLength",
+    "expected": 0,
+    "actual": 3,
+    "values": [
+      3
+    ],
+    "operator": "<=",
+    "auditId": "errors-in-console",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Browser errors were logged to the console",
+    "auditDocumentationLink": "https://web.dev/errors-in-console"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "font-display",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Ensure text remains visible during webfont load",
+    "auditDocumentationLink": "https://web.dev/font-display"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "frame-title",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "`<frame>` or `<iframe>` elements do not have a title",
+    "auditDocumentationLink": "https://web.dev/frame-title/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "image-alt",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Image elements do not have `[alt]` attributes",
+    "auditDocumentationLink": "https://web.dev/image-alt/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "link-name",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Links do not have a discernible name",
+    "auditDocumentationLink": "https://web.dev/link-name/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "meta-description",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Document does not have a meta description",
+    "auditDocumentationLink": "https://web.dev/meta-description"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "meta-viewport",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+    "auditDocumentationLink": "https://web.dev/meta-viewport/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "no-vulnerable-libraries",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Includes front-end JavaScript libraries with known security vulnerabilities",
+    "auditDocumentationLink": "https://web.dev/no-vulnerable-libraries"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.77,
+    "values": [
+      0.77
+    ],
+    "operator": ">=",
+    "auditId": "total-byte-weight",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Avoid enormous network payloads",
+    "auditDocumentationLink": "https://web.dev/total-byte-weight"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0,
+    "values": [
+      0
+    ],
+    "operator": ">=",
+    "auditId": "deprecations",
+    "level": "error",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils",
+    "auditTitle": "Uses deprecated APIs",
+    "auditDocumentationLink": "https://web.dev/deprecations"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.2,
+    "values": [
+      0.2
+    ],
+    "operator": ">=",
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.9,
+    "actual": 0.74,
+    "values": [
+      0.74
+    ],
+    "operator": ">=",
+    "auditProperty": "accessibility",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://particuliers.societegenerale.fr/nos-conseils"
+  }
+]

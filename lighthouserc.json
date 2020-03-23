@@ -13,13 +13,17 @@
       "headful": false,
       "numberOfRuns": 1,
       "url": [
-        "http://particuliers.societegenerale.fr/",
-        "http://particuliers.societegenerale.fr/emprunter"
+        "http://particuliers.societegenerale.fr",
+        "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne",
+        "https://particuliers.societegenerale.fr/emprunter",
+        "https://particuliers.societegenerale.fr/epargner-placer-son-argent",
+        "https://particuliers.societegenerale.fr/assurances",
+        "https://particuliers.societegenerale.fr/nos-conseils"
       ]	  
     },
     "upload": {
       "target": "lhci",
-      "token": "0ff5c38e-e09c-4874-a774-b76c7d55f73a",
+      "token": "d3f1105d-9471-471e-a588-f87139e871fb",
       "serverBaseUrl": "http://192.168.19.128:9001"
     },
     "server": {
