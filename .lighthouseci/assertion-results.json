@@ -2,9 +2,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.36,
+    "actual": 0.17,
     "values": [
-      0.36
+      0.17
     ],
     "operator": ">=",
     "auditId": "bootup-time",
@@ -16,9 +16,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.04,
+    "actual": 0.01,
     "values": [
-      0.04
+      0.01
     ],
     "operator": ">=",
     "auditId": "mainthread-work-breakdown",
@@ -30,9 +30,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.77,
+    "actual": 0.81,
     "values": [
-      0.77
+      0.81
     ],
     "operator": ">=",
     "auditId": "first-contentful-paint",
@@ -86,9 +86,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.16,
+    "actual": 0.13,
     "values": [
-      0.16
+      0.13
     ],
     "operator": ">=",
     "auditId": "speed-index",
@@ -100,9 +100,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.02,
+    "actual": 0,
     "values": [
-      0.02
+      0
     ],
     "operator": ">=",
     "auditId": "max-potential-fid",
@@ -212,9 +212,9 @@
   {
     "name": "maxLength",
     "expected": 0,
-    "actual": 7,
+    "actual": 6,
     "values": [
-      7
+      6
     ],
     "operator": "<=",
     "auditId": "render-blocking-resources",
@@ -476,9 +476,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.44,
+    "actual": 0.37,
     "values": [
-      0.44
+      0.37
     ],
     "operator": ">=",
     "auditId": "bootup-time",
@@ -490,9 +490,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.07,
+    "actual": 0.04,
     "values": [
-      0.07
+      0.04
     ],
     "operator": ">=",
     "auditId": "mainthread-work-breakdown",
@@ -504,9 +504,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.86,
+    "actual": 0.79,
     "values": [
-      0.86
+      0.79
     ],
     "operator": ">=",
     "auditId": "first-contentful-paint",
@@ -518,9 +518,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.03,
+    "actual": 0.02,
     "values": [
-      0.03
+      0.02
     ],
     "operator": ">=",
     "auditId": "first-cpu-idle",
@@ -532,9 +532,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.22,
+    "actual": 0.04,
     "values": [
-      0.22
+      0.04
     ],
     "operator": ">=",
     "auditId": "first-meaningful-paint",
@@ -546,9 +546,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.02,
+    "actual": 0.01,
     "values": [
-      0.02
+      0.01
     ],
     "operator": ">=",
     "auditId": "interactive",
@@ -560,9 +560,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.39,
+    "actual": 0.07,
     "values": [
-      0.39
+      0.07
     ],
     "operator": ">=",
     "auditId": "speed-index",
@@ -910,9 +910,9 @@
   {
     "name": "minScore",
     "expected": 1,
-    "actual": 0.18,
+    "actual": 0.17,
     "values": [
-      0.18
+      0.17
     ],
     "operator": ">=",
     "auditId": "total-byte-weight",
@@ -938,9 +938,9 @@
   {
     "name": "minScore",
     "expected": 0.8,
-    "actual": 0.3,
+    "actual": 0.19,
     "values": [
-      0.3
+      0.19
     ],
     "operator": ">=",
     "auditProperty": "performance",
@@ -964,9 +964,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.38,
+    "actual": 0.26,
     "values": [
-      0.38
+      0.26
     ],
     "operator": ">=",
     "auditId": "bootup-time",
@@ -978,9 +978,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.06,
+    "actual": 0.02,
     "values": [
-      0.06
+      0.02
     ],
     "operator": ">=",
     "auditId": "mainthread-work-breakdown",
@@ -992,9 +992,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.87,
+    "actual": 0.88,
     "values": [
-      0.87
+      0.88
     ],
     "operator": ">=",
     "auditId": "first-contentful-paint",
@@ -1006,9 +1006,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.26,
+    "actual": 0.25,
     "values": [
-      0.26
+      0.25
     ],
     "operator": ">=",
     "auditId": "first-cpu-idle",
@@ -1020,9 +1020,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.05,
+    "actual": 0.07,
     "values": [
-      0.05
+      0.07
     ],
     "operator": ">=",
     "auditId": "first-meaningful-paint",
@@ -1034,9 +1034,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0,
+    "actual": 0.01,
     "values": [
-      0
+      0.01
     ],
     "operator": ">=",
     "auditId": "interactive",
@@ -1048,9 +1048,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.06,
+    "actual": 0.12,
     "values": [
-      0.06
+      0.12
     ],
     "operator": ">=",
     "auditId": "speed-index",
@@ -1062,9 +1062,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.01,
+    "actual": 0,
     "values": [
-      0.01
+      0
     ],
     "operator": ">=",
     "auditId": "max-potential-fid",
@@ -1104,9 +1104,9 @@
   {
     "name": "maxLength",
     "expected": 0,
-    "actual": 2,
+    "actual": 1,
     "values": [
-      2
+      1
     ],
     "operator": "<=",
     "auditId": "unminified-javascript",
@@ -1412,9 +1412,9 @@
   {
     "name": "minScore",
     "expected": 1,
-    "actual": 0.45,
+    "actual": 0.52,
     "values": [
-      0.45
+      0.52
     ],
     "operator": ">=",
     "auditId": "total-byte-weight",
@@ -1440,9 +1440,9 @@
   {
     "name": "minScore",
     "expected": 0.8,
-    "actual": 0.23,
+    "actual": 0.25,
     "values": [
-      0.23
+      0.25
     ],
     "operator": ">=",
     "auditProperty": "performance",
@@ -1466,9 +1466,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.25,
+    "actual": 0.27,
     "values": [
-      0.25
+      0.27
     ],
     "operator": ">=",
     "auditId": "bootup-time",
@@ -1508,9 +1508,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.03,
+    "actual": 0.17,
     "values": [
-      0.03
+      0.17
     ],
     "operator": ">=",
     "auditId": "first-cpu-idle",
@@ -1522,9 +1522,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.22,
+    "actual": 0.05,
     "values": [
-      0.22
+      0.05
     ],
     "operator": ">=",
     "auditId": "first-meaningful-paint",
@@ -1536,9 +1536,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.02,
+    "actual": 0.01,
     "values": [
-      0.02
+      0.01
     ],
     "operator": ">=",
     "auditId": "interactive",
@@ -1550,9 +1550,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.19,
+    "actual": 0.1,
     "values": [
-      0.19
+      0.1
     ],
     "operator": ">=",
     "auditId": "speed-index",
@@ -1606,9 +1606,9 @@
   {
     "name": "maxLength",
     "expected": 0,
-    "actual": 2,
+    "actual": 1,
     "values": [
-      2
+      1
     ],
     "operator": "<=",
     "auditId": "unminified-javascript",
@@ -1900,9 +1900,9 @@
   {
     "name": "minScore",
     "expected": 1,
-    "actual": 0.71,
+    "actual": 0.72,
     "values": [
-      0.71
+      0.72
     ],
     "operator": ">=",
     "auditId": "total-byte-weight",
@@ -1928,9 +1928,9 @@
   {
     "name": "minScore",
     "expected": 0.8,
-    "actual": 0.25,
+    "actual": 0.23,
     "values": [
-      0.25
+      0.23
     ],
     "operator": ">=",
     "auditProperty": "performance",
@@ -1954,9 +1954,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.36,
+    "actual": 0.34,
     "values": [
-      0.36
+      0.34
     ],
     "operator": ">=",
     "auditId": "bootup-time",
@@ -1968,9 +1968,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.06,
+    "actual": 0.03,
     "values": [
-      0.06
+      0.03
     ],
     "operator": ">=",
     "auditId": "mainthread-work-breakdown",
@@ -1978,20 +1978,6 @@
     "url": "https://particuliers.societegenerale.fr/assurances",
     "auditTitle": "Minimize main-thread work",
     "auditDocumentationLink": "https://web.dev/mainthread-work-breakdown"
-  },
-  {
-    "name": "minScore",
-    "expected": 0.9,
-    "actual": 0.88,
-    "values": [
-      0.88
-    ],
-    "operator": ">=",
-    "auditId": "first-contentful-paint",
-    "level": "warn",
-    "url": "https://particuliers.societegenerale.fr/assurances",
-    "auditTitle": "First Contentful Paint",
-    "auditDocumentationLink": "https://web.dev/first-contentful-paint"
   },
   {
     "name": "minScore",
@@ -2024,9 +2010,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.01,
+    "actual": 0.02,
     "values": [
-      0.01
+      0.02
     ],
     "operator": ">=",
     "auditId": "interactive",
@@ -2038,9 +2024,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.23,
+    "actual": 0.24,
     "values": [
-      0.23
+      0.24
     ],
     "operator": ">=",
     "auditId": "speed-index",
@@ -2052,9 +2038,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.01,
+    "actual": 0,
     "values": [
-      0.01
+      0
     ],
     "operator": ">=",
     "auditId": "max-potential-fid",
@@ -2136,9 +2122,9 @@
   {
     "name": "maxLength",
     "expected": 0,
-    "actual": 31,
+    "actual": 32,
     "values": [
-      31
+      32
     ],
     "operator": "<=",
     "auditId": "uses-rel-preconnect",
@@ -2402,9 +2388,9 @@
   {
     "name": "minScore",
     "expected": 1,
-    "actual": 0.63,
+    "actual": 0.66,
     "values": [
-      0.63
+      0.66
     ],
     "operator": ">=",
     "auditId": "total-byte-weight",
@@ -2430,9 +2416,9 @@
   {
     "name": "minScore",
     "expected": 0.8,
-    "actual": 0.25,
+    "actual": 0.26,
     "values": [
-      0.25
+      0.26
     ],
     "operator": ">=",
     "auditProperty": "performance",
@@ -2456,9 +2442,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.31,
+    "actual": 0.25,
     "values": [
-      0.31
+      0.25
     ],
     "operator": ">=",
     "auditId": "bootup-time",
@@ -2470,9 +2456,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.03,
+    "actual": 0.01,
     "values": [
-      0.03
+      0.01
     ],
     "operator": ">=",
     "auditId": "mainthread-work-breakdown",
@@ -2484,9 +2470,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.85,
+    "actual": 0.86,
     "values": [
-      0.85
+      0.86
     ],
     "operator": ">=",
     "auditId": "first-contentful-paint",
@@ -2512,9 +2498,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.16,
+    "actual": 0.09,
     "values": [
-      0.16
+      0.09
     ],
     "operator": ">=",
     "auditId": "first-meaningful-paint",
@@ -2540,9 +2526,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.05,
+    "actual": 0.16,
     "values": [
-      0.05
+      0.16
     ],
     "operator": ">=",
     "auditId": "speed-index",
@@ -2554,9 +2540,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.02,
+    "actual": 0.04,
     "values": [
-      0.02
+      0.04
     ],
     "operator": ">=",
     "auditId": "max-potential-fid",
@@ -2596,9 +2582,9 @@
   {
     "name": "maxLength",
     "expected": 0,
-    "actual": 2,
+    "actual": 1,
     "values": [
-      2
+      1
     ],
     "operator": "<=",
     "auditId": "unminified-javascript",
@@ -2722,20 +2708,6 @@
   {
     "name": "minScore",
     "expected": 1,
-    "actual": 0,
-    "values": [
-      0
-    ],
-    "operator": ">=",
-    "auditId": "color-contrast",
-    "level": "error",
-    "url": "https://particuliers.societegenerale.fr/nos-conseils",
-    "auditTitle": "Background and foreground colors do not have a sufficient contrast ratio.",
-    "auditDocumentationLink": "https://web.dev/color-contrast/"
-  },
-  {
-    "name": "minScore",
-    "expected": 1,
     "actual": 0.99,
     "values": [
       0.99
@@ -2876,9 +2848,9 @@
   {
     "name": "minScore",
     "expected": 1,
-    "actual": 0.77,
+    "actual": 0.78,
     "values": [
-      0.77
+      0.78
     ],
     "operator": ">=",
     "auditId": "total-byte-weight",
@@ -2904,9 +2876,9 @@
   {
     "name": "minScore",
     "expected": 0.8,
-    "actual": 0.2,
+    "actual": 0.23,
     "values": [
-      0.2
+      0.23
     ],
     "operator": ">=",
     "auditProperty": "performance",
@@ -2917,9 +2889,9 @@
   {
     "name": "minScore",
     "expected": 0.9,
-    "actual": 0.74,
+    "actual": 0.75,
     "values": [
-      0.74
+      0.75
     ],
     "operator": ">=",
     "auditProperty": "accessibility",

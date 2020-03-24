@@ -1,8 +1,8 @@
 {
-  "https://particuliers.societegenerale.fr/": "http://192.168.19.128:9001/app/projects/particuliers-socgen/compare/a649bb0e-6ac1-4706-8869-a0f29334252c?compareUrl=https%3A%2F%2Fparticuliers.societegenerale.fr%2F",
-  "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne": "http://192.168.19.128:9001/app/projects/particuliers-socgen/compare/a649bb0e-6ac1-4706-8869-a0f29334252c?compareUrl=https%3A%2F%2Fparticuliers.societegenerale.fr%2Fouvrir-compte-bancaire-en-ligne",
-  "https://particuliers.societegenerale.fr/emprunter": "http://192.168.19.128:9001/app/projects/particuliers-socgen/compare/a649bb0e-6ac1-4706-8869-a0f29334252c?compareUrl=https%3A%2F%2Fparticuliers.societegenerale.fr%2Femprunter",
-  "https://particuliers.societegenerale.fr/epargner-placer-son-argent": "http://192.168.19.128:9001/app/projects/particuliers-socgen/compare/a649bb0e-6ac1-4706-8869-a0f29334252c?compareUrl=https%3A%2F%2Fparticuliers.societegenerale.fr%2Fepargner-placer-son-argent",
-  "https://particuliers.societegenerale.fr/assurances": "http://192.168.19.128:9001/app/projects/particuliers-socgen/compare/a649bb0e-6ac1-4706-8869-a0f29334252c?compareUrl=https%3A%2F%2Fparticuliers.societegenerale.fr%2Fassurances",
-  "https://particuliers.societegenerale.fr/nos-conseils": "http://192.168.19.128:9001/app/projects/particuliers-socgen/compare/a649bb0e-6ac1-4706-8869-a0f29334252c?compareUrl=https%3A%2F%2Fparticuliers.societegenerale.fr%2Fnos-conseils"
+  "https://particuliers.societegenerale.fr/": "https://storage.googleapis.com/lighthouse-infrastructure.appspot.com/reports/1584970753947-10033.report.html",
+  "https://particuliers.societegenerale.fr/ouvrir-compte-bancaire-en-ligne": "https://storage.googleapis.com/lighthouse-infrastructure.appspot.com/reports/1584970756334-89367.report.html",
+  "https://particuliers.societegenerale.fr/emprunter": "https://storage.googleapis.com/lighthouse-infrastructure.appspot.com/reports/1584970758568-20074.report.html",
+  "https://particuliers.societegenerale.fr/epargner-placer-son-argent": "https://storage.googleapis.com/lighthouse-infrastructure.appspot.com/reports/1584970760812-41404.report.html",
+  "https://particuliers.societegenerale.fr/assurances": "https://storage.googleapis.com/lighthouse-infrastructure.appspot.com/reports/1584970762966-94042.report.html",
+  "https://particuliers.societegenerale.fr/nos-conseils": "https://storage.googleapis.com/lighthouse-infrastructure.appspot.com/reports/1584970765385-62589.report.html"
 }

@@ -23,6 +23,7 @@
     },
     "upload": {
       "target": "lhci",
+      "githubToken": "e2f829d1a53b5b88106e13f5fabfb80aecfdd51e",
       "token": "d3f1105d-9471-471e-a588-f87139e871fb",
       "serverBaseUrl": "http://192.168.19.128:9001"
     },

@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "Enter the url: "  url
+lhci collect --numberOfRuns=1 --url=$url
+ls -la .lighthouseci
+
+
